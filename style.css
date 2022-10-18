@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+html, body {
+  background: #111;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 13px;
+  color: white;
+  text-align: center;
+}
+.main {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  line-height: 2rem;
+}
+a,
+a:visited,
+a:active {
+  color: white;
+  text-decoration: none;
+}
+.main img {
+  width: 100px;
+}
